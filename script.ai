@@ -1,0 +1,6 @@
+use azure [ subs ]
+
+give app-fn-datafactory-fsdi-unity+ [ dev, test, uat, prod ]
+
+role [ App Configuration Data Reader ] on config-fsdi-unity+ [ dev, test, uat, prod ]
+
