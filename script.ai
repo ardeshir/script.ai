@@ -4,3 +4,21 @@ give app-fn-datafactory-fsdi-unity+ [ dev, test, uat, prod ]
 
 role [ App Configuration Data Reader ] on config-fsdi-unity+ [ dev, test, uat, prod ]
 
+/* Template 
+
+app-fn-importbindata-fsdi-prod
+
+config-fsdi-unity-prod 
+App Configuration Data Reader
+
+keys-fsdi-unity-prod
+Get
+List
+
+kv-fsdi-binsentry-prod 
+Get
+List
+
+*/ 
+// In VS Code/macOS, to use Multiple Cursors, block editing:  Option-Command +UP Arrow / Down Arrows 
+// windows: ctrl-alt +UP/Down Arrows
